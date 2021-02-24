@@ -1,0 +1,78 @@
+{
+  "name": "singleFollower (Custom)",
+  "shortDescription": "singleFollower (Custom)",
+  "longDescription": "<p>Custom robot created in the configurator.</p>",
+  "longerDescription": "<h3>#robot-dimensions#</h3><ul><li>#robot-wheelDiameter#: 5.6 cm</li><li>#robot-wheelSpacing#: 15.2 cm</li></ul><h3>#robot-actuators#</h3><ul><li>#robot-port# A : #robot-leftWheel#</li><li>#robot-port# B : #robot-rightWheel#</li><li>#robot-port# C : tourelle</li></ul><h3>#robot-sensors#</h3><ul></ul>",
+  "thumbnail": "",
+  "bodyHeight": 4,
+  "bodyWidth": 14,
+  "bodyLength": 16,
+  "wheelDiameter": 5.6,
+  "wheelWidth": 0.8,
+  "wheelToBodyOffset": 0.2,
+  "bodyEdgeToWheelCenterY": 1,
+  "bodyEdgeToWheelCenterZ": 2,
+  "bodyMass": 1000,
+  "wheelMass": 200,
+  "casterMass": 0,
+  "wheelFriction": 10,
+  "bodyFriction": 0,
+  "casterFriction": 0,
+  "components": [
+    {
+      "type": "SwivelActuator",
+      "position": [
+        0,
+        2,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "components": [
+        {
+          "type": "Box",
+          "position": [
+            3,
+            1,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "options": {
+            "height": 1,
+            "width": 10,
+            "depth": 1,
+            "color": "A3CF0D"
+          }
+        }
+      ],
+      "options": {}
+    },
+    {
+      "type": "Box",
+      "position": [
+        3,
+        5,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "options": {
+        "height": 7,
+        "width": 1,
+        "depth": 1,
+        "color": "A3CF0D"
+      }
+    }
+  ],
+  "options": {}
+}
